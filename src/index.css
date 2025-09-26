@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-navy-600 {
+    color: #1e40af;
+  }
+  
+  .text-navy-800 {
+    color: #1e3a8a;
+  }
+  
+  .bg-navy-100 {
+    background-color: #dbeafe;
+  }
+  
+  .bg-navy-600 {
+    background-color: #1e40af;
+  }
+  
+  .bg-navy-700 {
+    background-color: #1d4ed8;
+  }
+  
+  .border-navy-500 {
+    border-color: #3b82f6;
+  }
+  
+  .ring-navy-500 {
+    --tw-ring-color: #3b82f6;
+  }
+}
